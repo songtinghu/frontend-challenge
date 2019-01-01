@@ -15,39 +15,66 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1em;
 }
 
 h5 {
-  font-size: 1.2em;
-  font-weight: bold;
+  font-size: 1.3em;
+  font-weight:normal;
+  background-color: #ECECEC;
+}
+
+
+.status-bar {
+  position: fixed;
+  z-index: 100;
+  margin: 0 auto;
+  top:0;
 }
 
 nav {
-  background-color: #195394;
-  margin-top: 19px;
-  padding: 18px 18px 18px 20px;
+  background-color: #37AB2F;
+  margin-top: 6px;
+  padding: 20px 20px 20px 20px;
   position: fixed;
-  width: 420px;
+  width: 375px;
   z-index: 100;
 }
 
-.arrow-left{
+.icon1{
   position:absolute;
-  top: 15px;
-  left: 16px;
+  top: 13px;
+  left: 25px;
   width: 10%;
   display: inline-block;
 }
 
-.map{
-  color: #fff;
+.icon2 {
+  position:absolute;
+  top: 12px;
+  left: 320px;
+  width: 10%;
   display: inline-block;
-  font-size: 1.2em;
-  padding-left: 15px;
-  width: 20%;
 }
+
+.map {
+  position:absolute;
+  top: 75px;
+  left: 510px;
+  width: 40%;
+  display: inline-block;
+}
+
 
 .center {
   color: #fff;
@@ -55,13 +82,13 @@ nav {
   font-size: 1.2em;
   font-family: "Open sans", "Lato", sans-serif;
   text-align: center;
-  width: 60%;
+  width: 100%;
 }
 
 
 .bus-lines {
   position: relative;
-  top: 53px;
+  top: 160px;
 }
 
 .container {
@@ -69,11 +96,16 @@ nav {
   width: 420px;
 }
 
+.header {
+   background-color: #ECECEC;
+
+ }
+
 .content {
   line-height: 1.5em;
   padding: 15px 0 15px 15px;
   display: inline-block;
-  width: 48%
+  width: 38%;
 }
 
 .line {
@@ -84,14 +116,14 @@ nav {
   position:relative;
   display:inline-block;
   text-align: left;
-  width:17%;
+  width:18%;
 }
 
 .time {
   position:relative;
   display:inline-block;
   line-height: 1.3em;
-  width: 15%;
+  width: 22%;
   text-align: right;
   color: #0e0e0e;
   font-family: "Open sans", "Lato", sans-serif;
@@ -100,9 +132,9 @@ nav {
 .resumes {
   position:relative;
   display:inline-block;
-  line-height: 1.3em;
+  line-height: 1.2em;
   width: 18%;
-  text-align: right;
+  text-align:right;
   color: #8b8b8b;
   font-family: "Open sans", "Lato", sans-serif;
 }
@@ -111,27 +143,29 @@ nav {
   line-height: 1.5em;
   padding: 15px 0 15px 15px;
   display:inline-block;
-  width: 45%;
+  width: 50%;
 }
 
 .na {
+  position:relative;
   color: #8b8b8b;
   display: inline-block;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-family: "Open sans", "Lato", sans-serif;
   text-align: right;
-  width: 15%;
+  width: 25%;
 }
 
 .arrow {
   display: inline-block;
-  margin-left: 22px;
-  margin-right: 16px;
+  margin-left: 15px;
+  margin-right: 18px;
 
 }
 
 .bus-lines {
-  padding-top: 20px;
+  padding-top: 10px;
+  width: 376px
 }
 
 .location:hover {
@@ -139,13 +173,8 @@ nav {
 }
 
 .divider {
-  width: 405px;
+  width: 350px;
   height: 1px;
-  background: #e2e2e2;
+  background: #37AB2F;
   margin-left: 16px;
-}
-
-.status-bar {
-  position: fixed;
-  z-index: 100;
 }
