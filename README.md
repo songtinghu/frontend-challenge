@@ -12,7 +12,7 @@ I came to a problem that the nav bar is flush to the top of the page. To solve t
 I also got frustrated by having the hover background wider than my desired screen width, and then I realized that the width that I assigned to the .content was too long.
 
 I also met a problem of not being able to get all the schedule in a line and then I found out that I didn't put ";" to the 
-line of the "text-align"
+line of the "text-align".
 
 There are many tiny details that would really make a project fail and cost me a lot of time to find out.
 It was a valuable experience to finally get the work look good. I reviewed some of the examples in my previous checkpoints to 
