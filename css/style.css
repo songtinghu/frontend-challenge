@@ -4,7 +4,7 @@
 
 body {
   background-color: #ffffff;
-  font-family: sans-serif;
+  font-family: 'Nunito',sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -34,7 +34,6 @@ h5 {
   background-color: #ECECEC;
 }
 
-
 .status-bar {
   position: fixed;
   z-index: 100;
@@ -44,7 +43,7 @@ h5 {
 
 nav {
   background-color: #37AB2F;
-  margin-top: 6px;
+  margin-top: 20px;
   padding: 20px 20px 20px 20px;
   position: fixed;
   width: 375px;
@@ -80,9 +79,46 @@ nav {
   color: #fff;
   display:inline-block;
   font-size: 1.2em;
-  font-family: "Open sans", "Lato", sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
   width: 100%;
+}
+
+.row {
+  display: inline;
+
+}
+
+.line1 {
+  font-size: 2.5em;
+  margin-left: 16px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  position:relative;
+  display:inline-block;
+  text-align: left;
+  width:18%;
+}
+
+
+.content1{
+  line-height: 1.5em;
+  padding: 15px 0 15px 15px;
+  display: inline-block;
+  width: 38%;
+
+}
+
+
+.time1{
+  position:relative;
+  display:inline-block;
+  line-height: 1.3em;
+  width: 22%;
+  text-align: right;
+  color: #0e0e0e;
+  font-family: 'Nunito', sans-serif;
+
 }
 
 
@@ -101,42 +137,17 @@ nav {
 
  }
 
-.content {
-  line-height: 1.5em;
-  padding: 15px 0 15px 15px;
-  display: inline-block;
-  width: 38%;
-}
 
-.line {
-  font-size: 2.5em;
-  margin-left: 16px;
-  padding-top: 2.5px;
-  padding-bottom: 2.5px;
-  position:relative;
-  display:inline-block;
-  text-align: left;
-  width:18%;
-}
-
-.time {
-  position:relative;
-  display:inline-block;
-  line-height: 1.3em;
-  width: 22%;
-  text-align: right;
-  color: #0e0e0e;
-  font-family: "Open sans", "Lato", sans-serif;
-}
 
 .resumes {
   position:relative;
-  display:inline-block;
-  line-height: 1.2em;
-  width: 18%;
-  text-align:right;
   color: #8b8b8b;
-  font-family: "Open sans", "Lato", sans-serif;
+  display: inline-block;
+  font-size: 1.1em;
+  font-family: 'Nunito', sans-serif;
+  text-align: right;
+  width: 18%;
+
 }
 
 .resume-content {
@@ -151,9 +162,9 @@ nav {
   color: #8b8b8b;
   display: inline-block;
   font-size: 1.2em;
-  font-family: "Open sans", "Lato", sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-align: right;
-  width: 25%;
+  width: 28%;
 }
 
 .arrow {
