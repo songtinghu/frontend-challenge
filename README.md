@@ -22,6 +22,6 @@ There are many tiny details that would really make a project fail and cost me a 
 
 Nothing but not least, from this frontend challenge exercise, I learned how to set up Github Page to present my work. It is very useful for me to make sure everything looks cool after committing.
 
-It was a valuable experience to finally get the work look good. I reviewed some of the examples in my previous checkpoints to help me figure out how to write the complete html.
+It was a valuable experience to finally get the work look good. I reviewed some of the examples in my previous checkpoints to help me figure out how to write the complete html!
 
 
